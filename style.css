@@ -1,0 +1,22 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: lightcoral;
+}
+
+#gallery {
+    width: 80%;
+    margin: auto;
+}
+
+#imageContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.imageBox {
+    border: 1px solid red;
+}
+
